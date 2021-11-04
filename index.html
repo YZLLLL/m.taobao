@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maxinum-scale=1,width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="applicable-device" content="mobile">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="description" content="什么都卖">
+    <meta name="keywords" content="卖买交易">
+    <title>淘宝移动端</title>
+    <link href="./image/icon.png" rel="Shortcut Icon" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./font/download/font_6ul9eljh3ki/iconfont.css">
+    <link rel="stylesheet" href="./css/com-header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/com-footer.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/swiper-bindle.min.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <nav>
+        <div class="nav-search">
+            <span>寻找宝贝店铺</span>
+        </div>
+    </nav>
+    <!-- 轮播图 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./image/ad1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./image/ad2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./image/ad3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./image/ad4.jpg" alt=""></div>
+        </div>
+        <!-- 分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // 垂直切换选项
+            loop: true, // 循环模式选项
+            autoplay: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+    </script>
+    <!-- 菜单 -->
+    <div class="swiper-container2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="meau">
+                    <div class="meau-item"><img src="./image/天猫.png" alt=""><span>天猫新品</span></div>
+                    <div class="meau-item"><img src="./image/爆款.png" alt=""><span>今日爆款</span></div>
+                    <div class="meau-item"><img src="./image/国际.png" alt=""><span>天猫国际</span></div>
+                    <div class="meau-item"><img src="./image/饿.png" alt=""><span>饿了么</span></div>
+                    <div class="meau-item"><img src="./image/超市.png" alt=""><span>天猫超市</span></div>
+                    <div class="meau-item"><img src="./image/充值.png" alt=""><span>充值中心</span></div>
+                    <div class="meau-item"><img src="./image/酒店.png" alt=""><span>机票酒店</span></div>
+                    <div class="meau-item"><img src="./image/金币.png" alt=""><span>金币庄园</span></div>
+                    <div class="meau-item"><img src="./image/拍卖.png" alt=""><span>阿里拍卖</span></div>
+                    <div class="meau-item"><img src="./image/吃货.png" alt=""><span>淘宝吃货</span></div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="meau">
+                    <div class="meau-item"><img src="./image/分类.png" alt=""><span>分类</span></div>
+                    <div class="meau-item"><img src="./image/美食.png" alt=""><span>天猫美食</span></div>
+                    <div class="meau-item"><img src="./image/健康.png" alt=""><span>阿里健康</span></div>
+                    <div class="meau-item"><img src="./image/口碑.png" alt=""><span>口碑生活</span></div>
+                    <div class="meau-item"><img src="./image/超市.png" alt=""><span>天猫超市</span></div>
+                    <div class="meau-item"><img src="./image/咸鱼.png" alt=""><span>咸鱼</span></div>
+                    <div class="meau-item"><img src="./image/会员.png" alt=""><span>会员中心</span></div>
+                    <div class="meau-item"><img src="./image/新货.png" alt=""><span>造点新货</span></div>
+                    <div class="meau-item"><img src="./image/土货.png" alt=""><span>土货鲜食</span></div>
+                    <div class="meau-item"><img src="./image/吃货.png" alt=""><span>淘宝吃货</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar" id="scrollbar"></div>
+    </div>
+
+    <script>
+        var swiper2 = new Swiper('.swiper-container2', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            freeMode: true,
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+
+
+    <!-- 聚划算 -->
+    <div class="recommend">
+        <div class="tuijian">
+            <div class="r-item t-item1">
+                <span class="t-i-title">聚划算</span>
+                <div class="t-i-info">
+                    <div><span class="t-i-subtitle">品牌折扣</span><img class="t-i-img" src="./image/husuan.jpg" alt=""></div>
+                    <div><span class="t-i-subtitle">划算好货</span><img class="t-i-img" src="./image/husuan2.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="r-item t-item2">
+                <div class="t-item1">
+                    <span class="t-i-title">天天特卖</span>
+                    <div class="t-i-info">
+                        <div><span class="t-i-subtitle">限时半价</span><img class="t-i-img" src="./image/husuan2.jpg" alt=""></div>
+                        <div><span class="t-i-subtitle">9.9包邮</span><img class="t-i-img" src="./image/husuan.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="r-item t-item3">
+                <div class="t-item1">
+                    <span class="t-i-title">每日好店</span>
+                    <div class="t-i-info">
+                        <div><span class="t-i-subtitle">挖深藏的店</span><img class="t-i-img" src="./image/husuan2.jpg" alt=""></div>
+                        <div><span class="t-i-subtitle"></span><img class="t-i-img" src="./image/husuan.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="live">
+            <div class="r-item l-item1">
+                <div class="t-item1">
+                    <span class="t-i-title">淘宝直播</span>
+                    <div class="t-i-info">
+                        <div><span class="t-i-subtitle">好物传送门</span><img class="t-i-img" src="./image/husuan2.jpg" alt=""></div>
+                        <div><span class="t-i-subtitle"></span><img class="t-i-img" src="./image/husuan.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="r-item l-item2">
+                <div class="t-item1">
+                    <span class="t-i-title">有好货</span>
+                    <div class="t-i-info">
+                        <div><span class="t-i-subtitle">全民口碑</span><img class="t-i-img" src="./image/husuan.jpg" alt=""></div>
+                        <div><span class="t-i-subtitle"></span><img class="t-i-img" src="./image/husuan2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="r-item l-item3">
+                <div class="t-item1">
+                    <span class="t-i-title">哇哦直播</span>
+                    <div class="t-i-info">
+                        <div><span class="t-i-subtitle">粉丝都爱看</span><img class="t-i-img" src="./image/husuan2.jpg" alt=""></div>
+                        <div><span class="t-i-subtitle"></span><img class="t-i-img" src="./image/husuan.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div class="like">
+        <span style="color: orange;"> --&gt; 猜你喜欢 &lt;--  </span>
+        <div class="like-list">
+        </div>
+    </div>
+    <!-- 底部导航栏 -->
+    <footer>
+        <a id="index" class="iconfont icon-zhuye active"></a>
+        <a id="find" class="iconfont icon-faxian" href="find.html"></a>
+        <a id="shoppingCart" class="iconfont icon-qicheqianlian-" href="shoppingCart.html"></a>
+        <a id="mine" class="iconfont icon-04" href="mine.html"></a>
+    </footer>
+
+
+    <img id="top" src="./image/返回顶部.png" alt="">
+    <script>
+        $(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() < 300) {
+                    $('#top').fadeOut(500)
+                } else if ($(this).scrollTop() > 300) {
+                    $('#top').fadeIn(500);
+                }
+            });
+            $('#top').click(function() {
+                // $(window).scrollTop(0);
+                $("html,body").animate({
+                    scrollTop: 0
+                }, 500)
+            });
+        })
+    </script>
+</body>
+
+</html>

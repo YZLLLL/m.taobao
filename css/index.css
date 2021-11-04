@@ -1,0 +1,152 @@
+.swiper-container {
+  width: 100%;
+  padding-top: 2rem;
+  --swiper-theme-color: #ff6600;
+  overflow: hidden;
+  position: relative;
+}
+.swiper-container .swiper-wrapper .swiper-slide img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.swiper-container .swiper-pagination {
+  position: absolute;
+  bottom: 0.5rem;
+  left: auto;
+}
+.swiper-container2 {
+  position: relative;
+  overflow: hidden;
+}
+.swiper-container2 .swiper-wrapper .swiper-slide .meau {
+  width: 100%;
+  display: grid;
+  padding-bottom: 5%;
+  background-color: #fff;
+  grid-template-columns: repeat(5, 1fr);
+}
+.swiper-container2 .swiper-wrapper .swiper-slide .meau .meau-item {
+  text-align: center;
+  font-size: 0.5rem;
+}
+.swiper-container2 .swiper-wrapper .swiper-slide .meau .meau-item span {
+  display: inline-block;
+  height: 1.6rem;
+  line-height: 1.6rem;
+}
+.swiper-container2 .swiper-wrapper .swiper-slide .meau .meau-item img {
+  width: 100%;
+  max-width: 100%;
+}
+.recommend {
+  display: grid;
+  padding: 1rem 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+.recommend .tuijian {
+  padding: 5%;
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+  background-color: #fff;
+}
+.recommend .live {
+  padding: 5%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 0.3rem;
+}
+.recommend .r-item {
+  margin-bottom: 0.5rem;
+}
+.recommend .r-item .t-i-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5%;
+}
+.recommend .r-item .t-i-info .t-i-img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.recommend .r-item .t-i-title {
+  color: orangered;
+  font-weight: 800;
+}
+.recommend .r-item .t-i-subtitle {
+  display: block;
+  font-size: 0.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: orange;
+}
+.like {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.like .like-list {
+  display: grid;
+  padding: 1rem 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+.like .like-list .list-item {
+  background-color: #fff;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.like .like-list .list-item span {
+  display: inline-block;
+  height: 1rem;
+  line-height: 2rem;
+}
+.like .like-list .list-item .l-l-l {
+  color: orange;
+  float: left;
+  margin-left: 1rem;
+}
+.like .like-list .list-item .l-l-r {
+  color: #bbb;
+  float: right;
+  margin-right: 1rem;
+}
+.like .like-list .list-item img {
+  width: 100%;
+  max-width: 100%;
+}
+#scrollbar {
+  bottom: 2.5%;
+  left: 42%;
+  width: 16%;
+  height: 2%;
+  margin: 0 auto;
+}
+#scrollbar .swiper-scrollbar-drag {
+  background-color: orange;
+}
+#top {
+  display: none;
+  position: fixed;
+  right: 1rem;
+  bottom: 5rem;
+  padding: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #ddd;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+#loading {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: orange;
+  border-radius: 0.5rem;
+  font-size: 0.5rem;
+  color: #fff;
+  height: 1rem;
+  line-height: 1rem;
+}

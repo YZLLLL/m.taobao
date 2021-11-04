@@ -1,0 +1,80 @@
+.title {
+  width: 100%;
+  padding: 16% 8%;
+}
+.title h1 {
+  font-size: 2rem;
+}
+.title p {
+  height: 2rem;
+  line-height: 2rem;
+  color: #999;
+}
+form {
+  padding: 0 8%;
+}
+form input {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 1px solid orange;
+}
+form .phone {
+  position: relative;
+}
+form .phone input {
+  padding-left: 4rem;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+}
+form .phone span {
+  display: inline-block;
+  position: absolute;
+  left: 0.5rem;
+  top: 0;
+  text-align: center;
+  width: 3rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+form .yzm {
+  position: relative;
+}
+form .yzm input {
+  padding: 0 50% 0 0.5rem;
+  box-sizing: border-box;
+}
+form .yzm #yzm {
+  display: inline-block;
+  position: absolute;
+  right: 0.5rem;
+  top: 0;
+  height: 2rem;
+  line-height: 2rem;
+}
+form #pwd {
+  padding-left: 0.5rem;
+}
+form input[type=button] {
+  border: none;
+  width: 100%;
+  background: #999;
+  color: #fff;
+  height: 45px;
+  border-radius: 35px;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+form .able {
+  background: -webkit-linear-gradient(left, #ff9000, #ff5000) no-repeat !important;
+  box-shadow: 0 2px 4px #f7c7b1;
+}
+form p {
+  color: #999;
+  font-size: 0.5rem;
+}
+form a {
+  color: orange;
+}

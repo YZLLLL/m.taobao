@@ -1,0 +1,93 @@
+#container{
+    
+    #userInfo{
+        display: grid;
+        margin-top: 1rem;
+        padding-top: 2rem;
+        grid-template-columns: repeat(12,1fr);
+        .user{
+            grid-column: 1/9;
+            box-sizing: border-box;
+            padding: 5%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 10%;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+                border-radius: 50%;
+            }
+            .username{
+                width: 6.875rem;
+                max-height: 100%;
+                div{
+                    margin: 0.2rem auto;
+                }
+            }
+        }
+        .iconfont{
+            font-size: 2rem;
+            color: #666;
+        }
+        .setting{
+            grid-column: 12/13;
+            text-align: right;
+            margin-right: 1rem;
+            font-size: 1.6rem;
+            color:#666;
+        }
+        .collection{
+            grid-column: 3/6;
+            line-height: 2rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+        .footprint{
+            grid-column: 8/11;
+            line-height: 2rem;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+    #goodsOrder{
+        display: grid;
+        margin-top: 1rem;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,50%);
+        
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        .g-item{
+            background-color: #fff;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        .g-item:nth-child(3),.g-item:nth-child(6){
+            border-right:none;
+        }
+        .g-item:nth-child(3){
+            border-radius: 0 1rem 0 0;
+        }
+        .g-item:nth-child(1){
+            border-radius: 1rem 0 0 0;
+        }
+        .g-item:nth-child(4){
+            border-radius: 0 0 0 1rem;
+        }
+        .g-item:nth-child(6){
+            border-radius: 0 0 1rem 0;
+        }
+.g-i-d{
+    display: inline-block;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+        .iconfont{
+            display: block;
+            width: 100%;
+            height: 2rem;
+            font-size: 2rem;
+        }
+    }
+}

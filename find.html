@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="applicable-device" content="mobile">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="description" content="什么都卖">
+    <meta name="keywords" content="卖买交易">
+    <title>淘宝移动端</title>
+    <link href="./image/icon.png" rel="Shortcut Icon" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/download/font_6ul9eljh3ki/iconfont.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/com-header.css">
+    <link rel="stylesheet" href="./css/find.css">
+    <link rel="stylesheet" href="./css/com-footer.css">
+    <script src="./js/swiper-bindle.min.js"></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./js/find.js"></script>
+
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <nav>
+        <div class="nav-search">
+            <span>发现</span>
+        </div>
+    </nav>
+
+    <!-- 分类 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide s-active m-item"><span>全部</span> </div>
+            <div class="swiper-slide m-item"><span>出品</span></div>
+            <div class="swiper-slide m-item"><span>家居</span></div>
+            <div class="swiper-slide m-item"><span>彩妆</span></div>
+            <div class="swiper-slide m-item"><span>美食</span></div>
+            <div class="swiper-slide m-item"><span>护肤</span></div>
+            <div class="swiper-slide m-item"><span>数码</span></div>
+            <div class="swiper-slide m-item"><span>母婴</span></div>
+        </div>
+    </div>
+    <script>
+        var swiper2 = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+            spaceBetween: 0,
+            freeMode: true,
+        });
+    </script>
+    <!-- 瀑布流 -->
+    <div id="container">
+
+    </div>
+
+    <!-- 底部导航栏 -->
+    <footer>
+        <a id="index" class="iconfont icon-zhuye" href="index.html"></a>
+        <a id="find" class="iconfont icon-faxian  active"></a>
+        <a id="shoppingCart" class="iconfont icon-qicheqianlian-" href="shoppingCart.html"></a>
+        <a id="mine" class="iconfont icon-04" href="mine.html"></a>
+    </footer>
+</body>
+
+</html>

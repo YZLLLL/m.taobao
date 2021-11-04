@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "454728",
+      "name": "我的",
+      "font_class": "04",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "485763",
+      "name": "收 藏",
+      "font_class": "shoucang",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "1506749",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "2038793",
+      "name": "购物车-23",
+      "font_class": "qicheqianlian-",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "2667319",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6172053",
+      "name": "待评价",
+      "font_class": "daipingjia",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "6524667",
+      "name": "待收货",
+      "font_class": "daishouhuo",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "6561976",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "7155866",
+      "name": "可见",
+      "font_class": "kejian",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "7674910",
+      "name": "设置",
+      "font_class": "dingbudaohang-zhangh",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "14112876",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "17199042",
+      "name": "待付款",
+      "font_class": "daifukuan",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "17833657",
+      "name": "不可见",
+      "font_class": "bukejian",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "22637273",
+      "name": "待发货",
+      "font_class": "tubiaozhizuomoban-29",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "23416280",
+      "name": "足迹",
+      "font_class": "zuji",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    }
+  ]
+}
